@@ -1,0 +1,70 @@
+@media only screen and (max-width: 600px){
+    .logo_img{
+        margin-right: 0.25rem;
+    }
+
+    .logo_image{
+        height: 30px;
+        width: 30px;
+    }
+
+    .logo_text_1{
+        font-size: 1rem;
+        letter-spacing: 0.15rem;
+    }
+
+    .logo_text_2{
+        font-size: 0.6rem; 
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .logo_img{
+        margin-right: 0.5rem;
+    }
+
+    .logo_image{
+        height: 60px;
+        width: 60px;
+    }
+
+    .logo_text_1{
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .logo_text_2{
+        font-size: 1rem; 
+    }
+}
+
+
+
+.logo_with_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    padding: 0.5rem;
+}
+
+.logo_img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.logo_text{
+    display: flex;
+    flex-direction: column;
+    font-family: "Caudex";
+}
+
+.logo_text_1{
+    font-weight: bold;
+}
+
+
+

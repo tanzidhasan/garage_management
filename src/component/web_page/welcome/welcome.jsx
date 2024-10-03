@@ -1,32 +1,17 @@
 import React from "react";
-import "../../styles/css/welcome.css";
-import Logo from "../jsx_compo/logo";
+
+import "./welcome.css";
+import Navbar from "../../page_compo/navbar/navbar";
 
 
-function Welcome(){
+export default function Welcome(){
 
     return(
         <>
+
+            <Navbar />
             <div className="welcome_page">
 
-                <div className="welcome_logo_with_nav">
-                    <Logo/> 
-
-                    {/* <div className="welcome_nav">
-                        <div className="nav about">
-                            About
-                        </div>
-
-                        <div className="nav services">
-                            Services
-                        </div>
-
-                        <div className="nav contact">
-                            Contact
-                        </div>
-
-                    </div> */}
-                </div>
 
                 {/* <div className="page_front">
                     <div className="page_front_text_1">
@@ -60,5 +45,3 @@ function Welcome(){
         </>
     );
 }
-
-export default Welcome;

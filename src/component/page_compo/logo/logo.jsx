@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../styles/css_compo/logo.css";
+import "./logo.css";
 
 
 export default function Logo(){
@@ -15,7 +15,7 @@ export default function Logo(){
                         width="498.000000pt" height="500.000000pt" viewBox="0 0 498.000000 500.000000"
                         preserveAspectRatio="xMidYMid meet">
                         <g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)"
-                            fill={hovering ? "#a03d41" : "#434C56"} stroke={hovering ? "#a03d41" : "#434C56"}>
+                            fill={hovering ? "#c98500" : "#16021c"} stroke={hovering ? "#c98500" : "#16021c"}>
                             <path d="M2335 4784 c-302 -25 -572 -95 -816 -211 l-116 -55 -7 -576 c-3 -318
                             -5 -1034 -3 -1592 l2 -1015 203 -3 202 -2 0 462 1 463 387 349 c213 192 392
                             350 397 352 6 1 160 -154 342 -344 l333 -347 -3 -690 -2 -690 -76 -32 c-109
@@ -47,11 +47,11 @@ export default function Logo(){
                 </div>
                 
                 <div className="logo_text">
-                    <div className="logo_text_1" style={{color: hovering ? "#a03d41" : "#434C56"}}>
+                    <div className="logo_text_1" style={{color: hovering ? "#c98500" : "#16021c"}}>
                         Hasan's Garage
                     </div>
 
-                    <div className="logo_text_2" style={{color: hovering ? "#a03d41" : "#434C56"}}>
+                    <div className="logo_text_2" style={{color: hovering ? "#c98500" : "#16021c"}}>
                         where your ride finds its prime
                     </div>
                     

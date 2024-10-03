@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import Welcome from './component/page/jsx/welcome';
+import Welcome from './component/web_page/welcome/welcome';
 
 
-function App() {
+export default function App() {
 
     return (
         <>
@@ -15,4 +15,3 @@ function App() {
     )
 }
 
-export default App
