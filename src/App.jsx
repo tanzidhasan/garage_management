@@ -1,12 +1,27 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
+import { Routes, Route } from 'react-router';
+
 import Welcome from './component/web_page/welcome/welcome';
+
 
 
 export default function App() {
 
     return (
         <>
-            <Welcome />
+        
+            <Routes>
+
+                <Route index element= {<Welcome />} />
+
+                <Route 
+                    path='/'
+                    element={<Welcome />}
+                />
+
+
+
+            </Routes>
 
 
         

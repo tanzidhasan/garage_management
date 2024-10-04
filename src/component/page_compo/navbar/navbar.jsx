@@ -37,10 +37,11 @@ export default function NavBar(props){
     };
 
 
-    const [padVal, setpadVal] = useState("4rem");
+    const [padVal, setpadVal] = useState("5rem");
     const [height, setheight] = useState("9rem");
+
     const listenScrollEvent = () => {
-        window.scrollY > 10 ? setpadVal("1rem") : setpadVal("4rem");
+        window.scrollY > 10 ? setpadVal("1rem") : setpadVal("5rem");
         window.scrollY > 10 ? setheight("6rem") : setheight("9rem");
     };
 
@@ -50,7 +51,7 @@ export default function NavBar(props){
         return () => {
           window.removeEventListener("scroll", listenScrollEvent);
         };
-      }, []);
+    }, []);
 
     return(
         <> 

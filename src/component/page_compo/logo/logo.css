@@ -39,13 +39,16 @@
 }
 
 
-
 .logo_with_text{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-items: center;
     padding: 0.5rem;
+}
+
+.logo_with_text:hover{
+    cursor: pointer;
 }
 
 .logo_img{

@@ -1,7 +1,9 @@
 import React from "react";
 
 import "./welcome.css";
+
 import Navbar from "../../page_compo/navbar/navbar";
+import Footer from "../../page_compo/footer/footer";
 
 
 export default function Welcome(){
@@ -10,10 +12,13 @@ export default function Welcome(){
         <>
 
             <Navbar />
+
+
             <div className="welcome_page">
 
 
-                {/* <div className="page_front">
+{/* 
+                <div className="page_front">
                     <div className="page_front_text_1">
                         Welcome to Hasan's Garage.
                     </div>
@@ -38,9 +43,15 @@ export default function Welcome(){
 
                     
 
-                </div> */}
+                </div>
+ */}
+
+
 
             </div>
+
+
+            <Footer />
             
         </>
     );
